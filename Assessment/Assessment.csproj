@@ -42,9 +42,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Part 1\" />
-    <Folder Include="Part 2\" />
+    <None Include="Part 1\Responses1.csx" />
+    <None Include="Part 2\Responses2.csx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
